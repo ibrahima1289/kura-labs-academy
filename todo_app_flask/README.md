@@ -30,10 +30,10 @@ In order to use Flask, it is recommended to have Python 3 installed on your comp
 
 **7.** Create a folder named **templates** under **project_name** folder. And create a HTML in the **templates** foder.  
 
-*###**Note:** You can find both **app.py** and the HTML file in the source code folder.*
+*### **Note:** You can find both **app.py** and the HTML file in the source code folder.*
 
 
-##**Sources**
+## **Sources**
 
   https://www.python-engineer.com/posts/flask-todo-app/
  

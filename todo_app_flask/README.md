@@ -15,8 +15,8 @@ In order to use Flask, it is recommended to have Python 3 installed on your comp
 
 **2. Activate the environment**
 
-      $ ./virtual/Scripts/activate (**Windows**)
-      $ . venv/bin/activate (**Linux environment**)
+      $ ./virtual/Scripts/activate (Windows)
+      $ . venv/bin/activate (Linux environment)
       
 **3. Install Flask**
       

@@ -1,27 +1,44 @@
-## Installation Flask in Python using visio code (Windows 10)
+## Installation Flask in Python using visio code (Windows 10 and/or Linux)
 
-Flask requires Python 3
+This project was done by using resources from this website linked here *https://www.python-engineer.com/posts/flask-todo-app/*.
 
-Setup virtual environment
+In order to use Flask, it is recommended to have Python 3 installed on your computer.
 
-Create an environment
-> mkdir BMI_calc
-> cd BMI_calc
-> py -3 -m venv virtual
-Activate the environment
-> .\virtual\Scripts\activate
-Install Flask
-$ pip install Flask
+*Follow the steps below.*
 
-In  BMI_calc folder, create a BMI_app folder and a Python file where the code will be displayed
-Create a static and templates folder in BMI_app folder 
+**1. Setup virtual environment**
 
-In the static folder, create a CSS file for the style
-In the templates folder, create a HTML file 
+   * Create an environment 
+      $ mkdir project_name
+      $ cd project_name
+      $ py -3 -m venv virtual_name
+
+**2. Activate the environment**
+
+      $ ./virtual/Scripts/activate (**Windows**)
+      $ . venv/bin/activate (**Linux environment**)
+      
+**3. Install Flask**
+      
+      $ pip install Flask
+      
+**4.** For the database, we will install SQLAlchemy (See link below for more information about this database).
+
+      $ pip install Flask-SQLAlchemy
+
+**5.** Create a file named **app.py** in the **project_name** folder; write the code for the **todo app**: see source codes for the details.
+
+**7.** Create a folder named **templates** under **project_name** folder. And create a HTML in the **templates** foder.  
+
+*###**Note:** You can find both **app.py** and the HTML file in the source code folder.*
 
 
+##**Sources**
 
-https://www.python-engineer.com/posts/flask-todo-app/
+  https://www.python-engineer.com/posts/flask-todo-app/
+ 
+  https://realpython.com/python-sqlite-sqlalchemy/#working-with-sqlalchemy-and-python-objects
+
 
 
 

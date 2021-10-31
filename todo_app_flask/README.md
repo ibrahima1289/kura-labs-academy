@@ -1,6 +1,6 @@
 ## Installation Flask in Python using visio code (Windows 10 and/or Linux)
 
-This project was done by using resources from this website linked here *https://www.python-engineer.com/posts/flask-todo-app/*.
+This project was done by using resources from this website linked [here](https://www.python-engineer.com/posts/flask-todo-app/).
 
 In order to use Flask, it is recommended to have Python 3 installed on your computer.
 

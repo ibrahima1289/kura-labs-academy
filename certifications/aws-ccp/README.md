@@ -1,6 +1,6 @@
 # AWS - CCP (Amazom Web Services - Certified Cloud Practitioner)
 
-These notes were taken when I was studying for my [certification](https://github.com/ibrahima1289/kura-labs-academy/blob/main/certifications/aws-ccp/AWS-CCP-Certificate-Udemy.pdf) in Udemy tought by [Stephane M.](https://www.udemy.com/course/aws-certified-cloud-practitioner-new/)
+These notes were taken when I was studying for my [certification](https://github.com/ibrahima1289/kura-labs-academy/blob/main/certifications/aws-ccp/AWS-CCP-Certificate-Udemy.pdf) in Udemy tought by [Stephane M.](https://www.udemy.com/course/aws-certified-cloud-practitioner-new/) and from [Coursera](https://www.coursera.org/learn/aws-cloud-practitioner).
 
 ## Types of Cloud
 
@@ -140,6 +140,31 @@ For more information, visit [AWS Database Blog](https://aws.amazon.com/blogs/dat
 * [AWS Support Plans](https://aws.amazon.com/premiumsupport/plans/) help you troubleshoot issues, lower costs, and efficiently use AWS services. 
 
 
+## Migration and Innovation
+
+* [AWS Cloud Adoption Framework (AWS CAF)](https://d1.awsstatic.com/whitepapers/aws_cloud_adoption_framework.pdf) organizes guidance into six areas of focus, called Perspectives.
+* Six of the most common [Migration Strategies](https://aws.amazon.com/blogs/enterprise-strategy/6-strategies-for-migrating-applications-to-the-cloud/).
+* [ AWS Snow Family](https://aws.amazon.com/snow/) is a collection of physical devices that help to physically transport up to exabytes of data into and out of AWS.
+
+## The Cloud Journey
+
+* The [AWS Well-Architected Framework](https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf) helps you understand how to design and operate reliable, secure, efficient, and cost-effective systems in the AWS Cloud.
+
+* Operating in the AWS Cloud offers many benefits over computing in on-premises or hybrid environments.<br>
+There are (about) six advantages of cloud computing:
+
+  * Trade upfront expense for variable expense.
+  * Benefit from massive economies of scale.
+  * Stop guessing capacity.
+  * Increase speed and agility.
+  * Stop spending money running and maintaining data centers.
+  * Go global in minutes.
+
+## Exam Details
+
+* [Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf).
+
+* [ AWS Certified Cloud Practitioner website](https://aws.amazon.com/certification/certified-cloud-practitioner/).
 
 
 
@@ -147,4 +172,3 @@ For more information, visit [AWS Database Blog](https://aws.amazon.com/blogs/dat
 
 1. https://www.udemy.com/course/aws-certified-cloud-practitioner-new/
 2. https://www.coursera.org/
-3. 

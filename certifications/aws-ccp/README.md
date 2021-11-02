@@ -61,7 +61,22 @@ These notes were taken when I was studying for my [certification](https://github
 * **Audit:** IAM Credential Reports & IAM Access Advisor
 
 * [AWS Artifact](https://aws.amazon.com/artifact/) is a service that provides on-demand access to AWS security and compliance reports and select online agreements.
-* 
+
+* A **denial-of-service (DoS)** attack is a deliberate attempt to make a website or application unavailable to users.
+
+* **AWS Shield** is a service that protects applications against DDoS attacks. AWS Shield provides two levels of protection: Standard and Advanced.
+
+   * AWS Shield Standard automatically protects all AWS customers at no cost. It protects your AWS resources from the most common, frequently occurring types of DDoS attack. 
+
+   * AWS Shield Advanced is a paid service that provides detailed attack diagnostics and the ability to detect and mitigate sophisticated DDoS attacks. 
+
+* [AWS WAF](https://aws.amazon.com/waf/) is a web application firewall that lets you monitor network requests that come into your web applications.
+
+* [AWS Key Management Service (AWS KMS)](https://aws.amazon.com/kms/) enables you to perform encryption operations through the use of cryptographic keys.
+
+* [Amazon Inspector](https://aws.amazon.com/inspector/) helps to improve the security and compliance of applications by running automated security assessments.
+
+* [Amazon GuardDuty](https://aws.amazon.com/guardduty/) is a service that provides intelligent threat detection for your AWS infrastructure and resources.
 
 ## Computing
 
@@ -106,10 +121,23 @@ These notes were taken when I was studying for my [certification](https://github
 For more information, visit [AWS Database Blog](https://aws.amazon.com/blogs/database/).
 
 
+## Monitoring and Analytics
 
+* [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) is a web service that enables you to monitor and manage various metrics and configure alarm actions based on data from those metrics.
 
+* [AWS CloudTrail](https://aws.amazon.com/cloudtrail/) records API calls for your account. The recorded information includes the identity of the API caller, the time of the API call, the source IP address of the API caller, and more. You can think of CloudTrail as a “trail” of breadcrumbs (or a log of actions) that someone has left behind them. 
 
+* [AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/) is a web service that inspects your AWS environment and provides real-time recommendations in accordance with AWS best practices.
+ 
 
+## Pricing and Support
+
+* [AWS Free Tier](https://aws.amazon.com/free/)
+* [AWS Pricing Calculator](https://calculator.aws/#/) lets you explore AWS services and create an estimate for the cost of your use cases on AWS. 
+* The [consolidated billing](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html) feature of AWS Organizations enables you to receive a single bill for all AWS accounts in your organization. 
+* In [AWS Budgets](https://aws.amazon.com/aws-cost-management/aws-budgets/), you can create budgets to plan your service usage, service costs, and instance reservations.
+* [AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/) is a tool that enables you to visualize, understand, and manage your AWS costs and usage over time.
+* [AWS Support Plans](https://aws.amazon.com/premiumsupport/plans/) help you troubleshoot issues, lower costs, and efficiently use AWS services. 
 
 
 

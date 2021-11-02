@@ -44,6 +44,8 @@ These notes were taken when I was studying for my [certification](https://github
 * A **security group** is a virtual firewall that controls inbound and outbound traffic for an Amazon EC2 instance.  
   
   * **Security groups** perform **stateful** packet filtering. They remember previous decisions made for incoming packets.
+  
+  * Amazon [Lightsail](https://aws.amazon.com/lightsail/faq/) is a virtual private server (VPS) provider. 
 
 * [Amazon Route 53](https://aws.amazon.com/route53/) is a **DNS web service**. It gives developers and businesses a reliable way to route end users to internet applications hosted in AWS. 
 

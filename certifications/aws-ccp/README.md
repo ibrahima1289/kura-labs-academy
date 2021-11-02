@@ -16,17 +16,52 @@ These notes were taken when I was studying for my [certification](https://github
 * **SaaS (Software as a Service)**
   * Completed product that is run and managed by the service provider
 
-## IAM 
+## Definitions
 
-* Users: have a password to access the AWS Console
-* Groups: have users only
-* Policies: JSON document that outlines permissions for users or groups
-* Roles: are for EC2 instances or AWS services
-* Security: MFA and Password Policy
-* AWS CLI: manage your AWS services using the command-line
-* AWS SDK: manage your AWS services using a programming language
-* Access Keys: access AWS using the CLI or SDK
-* Audit: IAM Credential Reports & IAM Access Advisor
+* An **edge location** is a site that Amazon CloudFront uses to store cached copies of your content closer to your customers for faster delivery.
+* **Elastic Beanstalk** deploys the resources necessary to perform the following tasks:
+
+  * Adjust capacity
+  * Load balancing
+  * Automatic scaling
+  * Application health monitoring
+
+* **AWS CloudFormation** provisions your resources in a safe, repeatable manner, enabling you to frequently build your infrastructure and applications without having to perform manual actions or write custom scripts.
+
+* **AWS Outposts** is an extend AWS infrastructure and services to your on-premises data center. 
+
+* **Amazon VPC** enables you to provision an isolated section of the AWS Cloud.
+
+* A **subnet** is a section of a **VPC** in which you can group resources based on security or operational needs. Subnets can be **public** or **private**.
+  
+  * **Public subnets** contain resources that need to be accessible by the public, such as an online store’s website.
+  * **Private subnets** contain resources that should be accessible only through your private network
+
+* A **network access control list** (**ACL**) is a virtual firewall that controls inbound and outbound traffic at the subnet level.
+
+  * **Network ACLs** perform **stateless** packet filtering. They remember nothing and check packets that cross the subnet border each way: inbound and outbound.
+
+* A **security group** is a virtual firewall that controls inbound and outbound traffic for an Amazon EC2 instance.  
+  
+  * **Security groups** perform **stateful** packet filtering. They remember previous decisions made for incoming packets.
+
+* [Amazon Route 53](https://aws.amazon.com/route53/) is a **DNS web service**. It gives developers and businesses a reliable way to route end users to internet applications hosted in AWS. 
+
+
+## IAM and Security
+
+* **Users:** have a password to access the AWS Console
+* **Groups:** have users only
+* **Policies:** JSON document that outlines permissions for users or groups
+* **Roles:** are for EC2 instances or AWS services
+* **Security:** MFA and Password Policy
+* **AWS CLI:** manage your AWS services using the command-line
+* **AWS SDK:** manage your AWS services using a programming language
+* **Access Keys:** access AWS using the CLI or SDK
+* **Audit:** IAM Credential Reports & IAM Access Advisor
+
+* [AWS Artifact](https://aws.amazon.com/artifact/) is a service that provides on-demand access to AWS security and compliance reports and select online agreements.
+* 
 
 ## Computing
 
@@ -38,9 +73,9 @@ These notes were taken when I was studying for my [certification](https://github
 * **Elastic Beanstalk**: orchestrate AWS services
 * **AWS Batch**: run [batch](https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html) computing workloads.
 
-## Storage
+## Storage and Databases
 
-* **S3**: Simple Storage Service - object storage
+* **S3**: Simple Storage Service - object storage (SSD)
 * **S3 Glacier**: low cost storage for archieving long-term backup
 * **Storaage Gateway**: hibrid cloud storage with local caching
 * **EBS**: Elastic Block Storage: SSD, HDD
@@ -49,4 +84,39 @@ These notes were taken when I was studying for my [certification](https://github
  * **Snowball Edge**: an improved verison of Snowball: 100TB capacity
  * **Snowmobile**: shipping container: pulled by a semi-trailer truch: 100PB capacity
  
-## 
+* **Amazon Elastic Block Store (Amazon EBS - HDD)** is a service that provides block-level storage volumes that you can use with Amazon EC2 instances. If you stop or terminate an Amazon EC2 instance, all the data on the attached EBS volume remains available.
+
+* **Amazon Elastic File System (Amazon EFS)** is a scalable file system used with AWS Cloud services and on-premises resources. As you add and remove files, Amazon EFS grows and shrinks automatically.  
+
+* Comparing Amazon **EBS** and Amazon **EFS**: 
+  
+  * Amazon **EBS**:
+    * An Amazon EBS volume stores data in a single Availability Zone. 
+    * To attach an Amazon EC2 instance to an EBS volume, both the Amazon EC2 instance and the EBS volume must reside within the same Availability Zone.
+  * Amazon EFS
+    * Amazon EFS is a regional service. It stores data in and across multiple Availability Zones. 
+    * The duplicate storage enables you to access data concurrently from all the Availability Zones in the Region where a file system is located. Additionally, on-premises servers can access Amazon EFS using AWS Direct Connect.
+
+* **Amazon Relational Database Service (Amazon RDS)** is a service that enables you to run relational databases in the AWS Cloud.
+
+* **Amazon DynamoDB** is a key-value database service. Serverless, Automatic Scaling.
+
+* **AWS Database Migration Service (AWS DMS)** enables you to migrate relational databases, nonrelational databases, and other types of data stores.  
+
+For more information, visit [AWS Database Blog](https://aws.amazon.com/blogs/database/).
+
+
+
+
+
+
+
+
+
+
+
+# Sources:
+
+1. https://www.udemy.com/course/aws-certified-cloud-practitioner-new/
+2. https://www.coursera.org/
+3. 

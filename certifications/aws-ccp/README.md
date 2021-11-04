@@ -94,7 +94,7 @@ These notes were taken when I was studying for my [certification](https://github
 
 * **S3**: Simple Storage Service - object storage (SSD)
 * **S3 Glacier**: low cost storage for archieving long-term backup
-* **Storaage Gateway**: hibrid cloud storage with local caching
+* **Storage Gateway**: hybrid cloud storage with local caching
 * **EBS**: Elastic Block Storage: SSD, HDD
 * **EFS**: Elastic File Storage
 * **Snowball**: physically migrate massive data by using a computer suitcase: 50-80TB capacity

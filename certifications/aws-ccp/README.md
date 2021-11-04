@@ -118,7 +118,7 @@ These notes were taken when I was studying for my [certification](https://github
 
 * **Amazon DynamoDB** is a key-value database service. Serverless, Automatic Scaling.
 
-* **DAX** is cache for DynamoDB
+* **[DAX](https://aws.amazon.com/dynamodb/dax/)** is cache for DynamoDB
 
 * **AWS Database Migration Service (AWS DMS)** enables you to migrate relational databases, nonrelational databases, and other types of data stores.  
 

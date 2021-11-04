@@ -118,11 +118,11 @@ These notes were taken when I was studying for my [certification](https://github
 
 * **Amazon DynamoDB** is a key-value database service. Serverless, Automatic Scaling.
 
+* **DAX** is cache for DynamoDB
+
 * **AWS Database Migration Service (AWS DMS)** enables you to migrate relational databases, nonrelational databases, and other types of data stores.  
 
-* **DynamoDB** is serverless & **DAX** is cache for DynamoDB: it's a key/Value Database
-
-* **Redshift** is SQL, Warehouse and OLAP
+* **Redshift** is SQL, Warehouse and [OLAP](https://www.ibm.com/cloud/blog/olap-vs-oltp)
 
 * **Athena** is used to query data on Amazon S3 (serverless & SQL)
 

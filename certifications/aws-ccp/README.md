@@ -120,17 +120,18 @@ These notes were taken when I was studying for my [certification](https://github
 
 * **AWS Database Migration Service (AWS DMS)** enables you to migrate relational databases, nonrelational databases, and other types of data stores.  
 
-* Key/Value Database: DynamoDB (serverless) & DAX (cache for DynamoDB)
-• Warehouse -> OLAP: Redshift (SQL)
-• Hadoop Cluster: EMR
-• Athena: query data on Amazon S3 (serverless & SQL)
-• QuickSight: dashboards on your data (serverless)
-• DocumentDB: “Aurora for MongoDB” (JSON – NoSQL database)
-• Amazon QLDB: Financial Transactions Ledger (immutable journal, cryptographically verifiable)
-• Amazon Managed Blockchain: managed Hyperledger Fabric & Ethereum blockchains
-• Glue: Managed ETL (Extract Transform Load) and Data Catalog service
-• Database Migration: DMS
-• Neptune: graph database
+* **DynamoDB** is serverless & **DAX** is cache for DynamoDB: it's a key/Value Database
+
+* **Redshift** is SQL, Warehouse and OLAP
+
+* **Athena** is used to query data on Amazon S3 (serverless & SQL)
+
+* **QuickSight** provides a dashboards on for data (serverless)
+
+* **DocumentDB** uses **Aurora** for **MongoD** (JSON – NoSQL database)
+
+* **Glue** is used for Managed **ETL** (Extract Transform Load) and Data Catalog service
+
 
 For more information, visit [AWS Database Blog](https://aws.amazon.com/blogs/database/).
 

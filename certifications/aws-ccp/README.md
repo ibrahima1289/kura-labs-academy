@@ -84,7 +84,7 @@ These notes were taken when I was studying for my [certification](https://github
 
 * **EC2**: Elastic Compute Service
 * **ECS**: Elastic Container Service: Docker as a Service
-* **EKS**: Elastic Kubernetes Service: Kubernetes as a service
+* **[EKS](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html)**: Elastic Kubernetes Service: Kubernetes as a service
 * **Fargate**: [Fargate](https://docs.aws.amazon.com/AmazonECS/latest/userguide/what-is-fargate.html) is used to run containers in AWS
 * **Lambda**: serveless [function](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html) 
 * **Elastic Beanstalk**: orchestrate AWS services

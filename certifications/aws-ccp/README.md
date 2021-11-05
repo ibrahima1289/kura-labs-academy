@@ -90,7 +90,7 @@ These notes were taken when I was studying for my [certification](https://github
 * **Elastic Beanstalk**: orchestrate AWS services
 * **AWS Batch**: run [batch](https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html) computing workloads.
 
-For more information,follow this [link](https://docs.aws.amazon.com/index.html); it has an extensive AWS documentation.
+For more information, follow this **[link](https://docs.aws.amazon.com/index.html)**; it has an extensive AWS documentation.
 
 ## Storage and Databases
 

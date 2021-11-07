@@ -18,6 +18,7 @@ These notes were taken when I was studying for my [certification](https://github
 
 ## Definitions
 
+* **[Cloud computing](https://aws.amazon.com/what-is-cloud-computing/?nc1=f_cc)** is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing.
 * An **edge location** is a site that Amazon CloudFront uses to store cached copies of your content closer to your customers for faster delivery.
 * **Elastic Beanstalk** deploys the resources necessary to perform the following tasks:
 

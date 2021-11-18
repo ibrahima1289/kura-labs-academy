@@ -131,7 +131,7 @@ For more information, follow this **[link](https://docs.aws.amazon.com/index.htm
 
 * **QuickSight** provides a dashboards on for data (serverless)
 
-* **DocumentDB** uses **Aurora** for **MongoD** (JSON – NoSQL database)
+* **DocumentDB** uses **Aurora** for **MongoDB** (JSON – NoSQL database)
 
 * **Glue** is used for Managed **ETL** (Extract Transform Load) and Data Catalog service
 

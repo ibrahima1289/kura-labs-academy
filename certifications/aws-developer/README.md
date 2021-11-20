@@ -12,7 +12,7 @@
 ## Domain 4: Refactoring 10%
 
 
-## Domain 5: Monitoring and Troubleshooting
+## Domain 5: Monitoring and Troubleshooting 12%
 
 
 ### See [syllabus](https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf).

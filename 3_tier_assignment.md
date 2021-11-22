@@ -65,4 +65,5 @@ CloudFormation -> Stacks -> Create stack
 
 1. https://jennapederson.com/blog/2021/6/21/provisioning-an-ec2-instance-with-cloudformation-part-1/
 2. https://rdspg-monitoring.workshop.aws/en/prep/env/own-account.html
-3. 
+3. https://dev.classmethod.jp/articles/cloudformation-template-for-creating-ec2-with-load-balancer/
+4. 

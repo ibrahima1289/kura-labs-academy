@@ -35,16 +35,16 @@ Create **yaml** file named **base.yaml**; copy the content of the [yaml](https:/
 ```
 CloudFormation -> Stacks -> Create stack
 ```
-![](/images/tier3-1)
+![](/images/tier3-1.PNG)
 
 * Upload the **base.yaml** file.
-![](/images/tier3-2)
+![](/images/tier3-2.PNG)
 
 * Give the stack a name
-![](/images/tier3-3)
+![](/images/tier3-3.PNG)
 
 * We can see the parameters are the same as in the **base.yaml** file.
-![](/images/tier3-4)
+![](/images/tier3-4.PNG)
 
 
 * Create a new phpmyadmin EC2 and make sure it’s secure

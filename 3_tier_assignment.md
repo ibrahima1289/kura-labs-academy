@@ -2,6 +2,7 @@
 
 ## Goal:
 The goal of this project is to create a [three-tier](https://docs.aws.amazon.com/whitepapers/latest/serverless-multi-tier-architectures-api-gateway-lambda/three-tier-architecture-overview.html) architecture application in an AWS VPC (Virtual Private Cloud). <br>
+
 In the three-tier architecture, we have:
 * **Data layer:** is the database where the data is stored.
 * **Application layer:** This application layer is a [phpMyAdmin](https://www.phpmyadmin.net/) appication: it will manage the MySQL database hosted on AWS. 

@@ -10,7 +10,7 @@ In the three-tier architecture, we have:
 
 ## Architecture:
 
-## Software Tools:
+## Software Tools Used:
 In this project, we used AWS services listed below.
 * EC2
 * Internet Gateway
@@ -22,7 +22,7 @@ In this project, we used AWS services listed below.
 
 ### Task 1
 
-* Create a VPC with a public subnet and private subnet using cloudFormation; here is the [yaml](https://docs.aws.amazon.com/codebuild/latest/userguide/cloudformation-vpc-template.html) file.<br>
+1. Create a VPC with a public subnet and private subnet using cloudFormation; here is the [yaml](https://docs.aws.amazon.com/codebuild/latest/userguide/cloudformation-vpc-template.html) file.<br>
 Create **yaml** file named **base.yaml**; copy the content of the [yaml](https://docs.aws.amazon.com/codebuild/latest/userguide/cloudformation-vpc-template.html) file and paste it into the **base.yaml** file.<br>
 
   * The **base.yaml** file template will deploy:
@@ -30,20 +30,24 @@ Create **yaml** file named **base.yaml**; copy the content of the [yaml](https:/
     * an internet gateway, with a default route on the public subnets
     * a pair of NAT gateways (one in each AZ), and default routes for them in the private subnets
     
-* Now, save the **base.yaml** file locally.
-* Create a stack on cloudFormation.
+2. Now, save the **base.yaml** file locally.
+3. Create a stack on cloudFormation.
 ```
 CloudFormation -> Stacks -> Create stack
 ```
 ![](images/tier3-1.PNG)
 
-* Upload the **base.yaml** file.
+4. Upload the **base.yaml** file.
+
 ![](images/tier3-2.PNG)
 
-* Give the stack a name
+5. In the next page, give the stack a name
+
 ![](images/tier3-3.PNG)
 
-* We can see the parameters are the same as in the **base.yaml** file.
+6. We can see the parameters are the same as in the **base.yaml** file.
+7. Select the **key pair** that will allow you to **ssh** into the differents **EC2**.
+
 ![](images/tier3-4.PNG)
 
 

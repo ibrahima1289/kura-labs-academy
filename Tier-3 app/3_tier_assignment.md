@@ -11,6 +11,8 @@ In the three-tier architecture, we have:
 
 ## Architecture:
 
+![](images/tier3-0.PNG)
+
 ## Software Tools Used:
 In this project, we used AWS services listed below.
 * EC2

@@ -18,6 +18,7 @@ In the three-tier architecture, we have:
 ## Software Tools Used:
 In this project, we used AWS services listed below.
 * EC2
+* Security Groups
 * Internet Gateway
 * Load Balancer
 * Nat Gateway

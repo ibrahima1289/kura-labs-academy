@@ -7,7 +7,7 @@ In the three-tier architecture, we have:
 * **Data layer:** is the database where the data is stored.
 * **Application layer:** This application layer is a [phpMyAdmin](https://www.phpmyadmin.net/) appication: it will manage the MySQL database hosted on AWS. 
 * **Presentation layer:** Here, we have an NGINX application that act as a [reverse proxy](https://www.nginx.com/resources/glossary/reverse-proxy-server/) which helps the client access the backend.
-* We will use [bastion](https://aws.amazon.com/quickstart/architecture/linux-bastion/) hosts to provide a secure access to the instances located in the private and public subnets of the VPC.
+* We will use **[bastion](https://aws.amazon.com/quickstart/architecture/linux-bastion/)** hosts to provide a secure access to the instances located in the private and public subnets of the VPC.
 
 ### NOTE: DELETE ALL THE RESOURCES AFTER YOU ARE DONE IN ORDER TO AVOID AN AWS BILL!!!
 

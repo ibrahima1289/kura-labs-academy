@@ -58,7 +58,7 @@ CloudFormation -> Stacks -> Create stack
 
   After hitting **next**, wait for a couple minutes in order for the stack to finish creating the resources.
   
-  ![](images/tier3-5.PNG)
+![](images/tier3-5.PNG)
 
 8. All the resources: phpmyadmin EC2 and Web proxy for caching will be created by the template base.yaml, and it’s secure.
 9. After creating all the resources, **ssh** into the three **EC2** instances:

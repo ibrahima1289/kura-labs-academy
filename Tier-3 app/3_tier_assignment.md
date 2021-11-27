@@ -60,6 +60,10 @@ CloudFormation -> Stacks -> Create stack
   
 ![](images/tier3-5.PNG)
 
+Once the stack is created, proceed to the next task.
+
+![](images/tier3-6.PNG)
+
 8. All the resources: phpmyadmin EC2 and Web proxy for caching will be created by the template base.yaml, and it’s secure.
 9. After creating all the resources, **ssh** into the three **EC2** instances:
   * First, **ssh** into the **Bastion** EC2:
@@ -88,7 +92,25 @@ CloudFormation -> Stacks -> Create stack
 
 ### Task 2:
 
-* Create an AWS load balancer to connect to your reverse proxy.
+1. Create a target goup
+
+First, go to ```EC2 > Target groups > Create target groups```.
+
+![](images/tier3-13.PNG)
+
+Then, choose the **VPC** and port **80**. with **HTTP/HTTP1** protocols
+
+![](images/tier3-14.PNG)
+
+Register the **NginxProxy** to the target group and click on ```include as pending bellow``` with **port 80**.
+
+![](images/tier3-15.PNG)
+
+Now, create the target group.
+
+![](images/tier3-16.PNG)
+
+2. Create an AWS load balancer to connect to your reverse proxy.
 * 
 ### Task 3:
 

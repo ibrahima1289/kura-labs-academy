@@ -1,6 +1,8 @@
 # AWS - CCP (Amazom Web Services - Certified Cloud Practitioner)
 
-These notes were taken when I was studying for my [certification](https://github.com/ibrahima1289/kura-labs-academy/blob/main/certifications/aws-ccp/AWS-CCP-Certificate-Udemy.pdf) in Udemy tought by [Stephane M.](https://www.udemy.com/course/aws-certified-cloud-practitioner-new/) and from [Coursera](https://www.coursera.org/learn/aws-cloud-practitioner-essentials).
+These notes were taken when I was studying for my [udemy certification](https://github.com/ibrahima1289/kura-labs-academy/blob/main/certifications/aws-ccp/AWS-CCP-Certificate-Udemy.pdf) in Udemy tought by [Stephane M.](https://www.udemy.com/course/aws-certified-cloud-practitioner-new/) and from [Coursera](https://www.coursera.org/learn/aws-cloud-practitioner-essentials).
+
+### My **CCP AWS** certification is linked [here](https://github.com/ibrahima1289/kura-labs-academy/blob/main/certifications/aws-ccp/AWS%20Certified%20Cloud%20Practitioner%20certificate.pdf).
 
 ## Types of Cloud
 

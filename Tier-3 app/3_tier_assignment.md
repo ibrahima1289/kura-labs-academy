@@ -86,10 +86,8 @@ Once the stack is created, proceed to the next task.
    
    ![](images/tier3-12.PNG)
    
-   * Finally **ssh** into the other **EC2** instances to make sure it works.
+   * Finally **ssh** into the other **EC2** instances to make sure it works. Use the same methods as for the first EC2.
    
-   ![](images/tier3-10.PNG)
-
 ### Task 2:
 
 1. Create a target goup

@@ -108,7 +108,7 @@ Now, create the target group.
 
 ![](images/tier3-16.PNG)
 
-2. Create an AWS load balancer to connect to your reverse proxy.
+2. Create an AWS load balancer to connect to the reverse proxy.
 * 
 ### Task 3:
 

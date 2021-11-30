@@ -121,6 +121,45 @@ Now, create the target group.
 
 
 ### Task 4:
+- install apache2
+- check apache
+- install: sudo apt install php libapache2-mod-php php-mysql
+- check php: touch /var/www/html/test.php: and make: <?php phpinfo();
+- install mysql: sudo apt install mysql-server
+- sudo mysql_secure_installation
+- log into mysql with: mysql -u root -p
+- install: sudo apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl
+- abort
+- UNINSTALL COMPONENT "file://component_validate_password";
+- sudo apt install phpmyadmin
+- INSTALL COMPONENT "file://component_validate_password";
+- sudo phpenmod mbstring
+- log into mysql
+- SELECT user,authentication_string,plugin,host FROM mysql.user;
+- ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'password';
+
+- ```cd /etc/php/7.4/apache2``` and edit the ```php.ini``` file by uncommenting line 895
+- ```cd /etc/apache2``` and edit the file **apache2.conf**. Add: ```include /etc/phpmyadmin/apache.conf``` at the end of the file.
+
+![](images/tier3-44.PNG)
+
+- Run ```sudo systemctl restart apache2```
+- Connect the **AWS MySql** database to the **phpMyAdmin** EC2.<br.
+Run ```sudo nano /etc/phpmyadmin/config.inc.php``` and paste the below content in the ```config.inc.php``` file.<br>
+
+```$i++;
+$cfg['Servers'][$i]['host'] = '__FILL_IN_DETAILS__';
+$cfg['Servers'][$i]['port'] = '3306';
+$cfg['Servers'][$i]['socket'] = '';
+$cfg['Servers'][$i]['connect_type'] = 'tcp';
+$cfg['Servers'][$i]['extension'] = 'mysql';
+$cfg['Servers'][$i]['compress'] = FALSE;
+$cfg['Servers'][$i]['auth_type'] = 'config';
+$cfg['Servers'][$i]['user'] = '__FILL_IN_DETAILS__';
+$cfg['Servers'][$i]['password'] = '__FILL_IN_DETAILS__';
+```
+
+![](images/tier3-45.PNG)
 
 
 ## Sources:

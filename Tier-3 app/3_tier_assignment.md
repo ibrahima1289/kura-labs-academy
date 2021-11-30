@@ -110,15 +110,47 @@ Now, create the target group.
 ![](images/tier3-16.PNG)
 
 2. Create an AWS load balancer to connect to the reverse proxy.
-* 
+* Go to AWS Loadbalancers and follow the instructions in the screenshots below.
+
+![](images/tier3-17.PNG)
+
+![](images/tier3-18.PNG)
+
+![](images/tier3-19.PNG)
+
+* Configure the **VPC** to the **Security Group** ans select the **target group**.
+
+![](images/tier3-20.PNG)
+
+
 ### Task 3:
 
 * Create a MySQL database on AWS by first creating a subnet group
+
+a. Create a **subnet group** first.
+
+![](images/tier3-22.PNG)
+
+![](images/tier3-23.PNG)
+
+![](images/tier3-24.PNG)
+
+
+b. Now, create the database.
 
 ```Choose Free tier -> DB instance identifier -> Master username -> Master password -> Virtual private cloud (VPC) -> Select Subnet group -> VPC security group -> Choose existing (ThreeTierDB in this case) -> Availability Zone -> Create Database```
 
 * Or, you can follow the screenshots below.
 
+![](images/tier3-21.PNG)
+
+![](images/tier3-25.PNG)
+
+![](images/tier3-26.PNG)
+
+![](images/tier3-27.PNG)
+
+![](images/tier3-28.PNG)
 
 ### Task 4:
 - install apache2

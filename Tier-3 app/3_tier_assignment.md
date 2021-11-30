@@ -86,7 +86,8 @@ Once the stack is created, proceed to the next task.
    
    ![](images/tier3-12.PNG)
    
-   * Finally **ssh** into the other **EC2** instances to make sure it works. Use the same methods as for the first EC2.
+   * Now, from the **Bastion EC2**, **ssh** into the **NGINX EC2** instances to make sure it works. Use the same methods as for the first EC2.
+   * Once the ```update``` and ```upgrade``` is done, **exit** from the **NGINX** and **ssh** into the **phpMyAdmin** from the **Bastion** host, and, ```update``` and ```upgrade``` as well.
    
 ### Task 2:
 

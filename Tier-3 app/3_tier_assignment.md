@@ -114,8 +114,12 @@ Now, create the target group.
 ### Task 3:
 
 * Create a MySQL database on AWS by first creating a subnet group
-* Select your vpc and subnets
-* 
+
+```Choose Free tier -> DB instance identifier -> Master username -> Master password -> Virtual private cloud (VPC) -> Select Subnet group -> VPC security group -> Choose existing (ThreeTierDB in this case) -> Availability Zone -> Create Database```
+
+* Or, you can follow the screenshots below.
+
+
 ### Task 4:
 
 

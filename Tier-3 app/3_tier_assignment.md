@@ -7,6 +7,7 @@ In the three-tier architecture, we have:
 * **Data layer:** is the database where the data is stored.
 * **Application layer:** This application layer is a [phpMyAdmin](https://www.phpmyadmin.net/) appication: it will manage the MySQL database hosted on AWS. 
 * **Presentation layer:** Here, we have an NGINX application that act as a [reverse proxy](https://www.nginx.com/resources/glossary/reverse-proxy-server/) which helps the client access the backend.
+
 * We will use **[bastion](https://aws.amazon.com/quickstart/architecture/linux-bastion/)** hosts to provide a secure access to the instances located in the private and public subnets of the VPC.
 
 ### NOTE: DELETE ALL THE RESOURCES AFTER YOU ARE DONE IN ORDER TO AVOID AN AWS BILL!!!
@@ -26,7 +27,7 @@ In this project, we used AWS services listed below.
 
 ## Precedure:
 
-### Task 1
+### Task 1: We will set up the resources using the  **[base.yaml](https://github.com/ibrahima1289/3_TIER_ASGMT/blob/main/base.yaml)** file.
 
 1. Create a VPC with a public subnet and private subnet using cloudFormation; here is the [yaml](https://docs.aws.amazon.com/codebuild/latest/userguide/cloudformation-vpc-template.html) file.<br>
 Create **yaml** file named **[base.yaml](https://github.com/ibrahima1289/3_TIER_ASGMT/blob/main/base.yaml)**; copy the content of the [yaml](https://docs.aws.amazon.com/codebuild/latest/userguide/cloudformation-vpc-template.html) file and paste/modify it into the **[base.yaml](https://github.com/ibrahima1289/3_TIER_ASGMT/blob/main/base.yaml)** file.<br>
@@ -89,9 +90,9 @@ Once the stack is created, proceed to the next task.
    * Now, from the **Bastion EC2**, **ssh** into the **NGINX EC2** instances to make sure it works. Use the same methods as for the first EC2.
    * Once the ```update``` and ```upgrade``` is done, **exit** from the **NGINX** and **ssh** into the **phpMyAdmin** from the **Bastion** host, and, ```update``` and ```upgrade``` as well.
    
-### Task 2:
+### Task 2: We will create a load balancer.
 
-1. Create a target goup
+1. Create a target goup: a [target group](https://aws.amazon.com/blogs/aws/new-application-load-balancer-simplifies-deployment-with-weighted-target-groups/) is used to tell the load balancer where to direct traffic.
 
 First, go to ```EC2 > Target groups > Create target groups```.
 
@@ -118,12 +119,12 @@ Now, create the target group.
 
 ![](images/tier3-19.PNG)
 
-* Configure the **VPC** to the **Security Group** ans select the **target group**.
+* Configure the **VPC** to the **Security Group** and select the **target group** created previously.
 
 ![](images/tier3-20.PNG)
 
 
-### Task 3:
+### Task 3: We will create a database on AWS.
 
 * Create a MySQL database on AWS by first creating a subnet group
 
@@ -152,25 +153,97 @@ b. Now, create the database.
 
 ![](images/tier3-28.PNG)
 
-### Task 4:
-- install apache2
-- check apache
-- install: sudo apt install php libapache2-mod-php php-mysql
-- check php: touch /var/www/html/test.php: and make: <?php phpinfo();
-- install mysql: sudo apt install mysql-server
-- sudo mysql_secure_installation
-- log into mysql with: mysql -u root -p
-- install: sudo apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl
-- abort
-- UNINSTALL COMPONENT "file://component_validate_password";
-- sudo apt install phpmyadmin
-- INSTALL COMPONENT "file://component_validate_password";
-- sudo phpenmod mbstring
-- log into mysql
-- SELECT user,authentication_string,plugin,host FROM mysql.user;
-- ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'password';
+### Task 4: We will set up the phpMyAdmin (application layer that interact with the database) to connect to the MySQL database we created on AWS.
 
-- ```cd /etc/php/7.4/apache2``` and edit the ```php.ini``` file by uncommenting line 895
+1. Follow the istruction below after you **ssh** into the **phpMyAdmin** EC2 from the **Bastion** host:
+
+- Update and upgrade: ```sudo apt-get update && sudo apt-get upgrade -y```
+- Install apache2 by running the command: ```sudo apt-get install apache2 -y```.
+
+![](images/tier3-29.PNG)
+
+- Install the modules (mysql, php, apache) so that PHP can connect with mysql and apache: 
+
+```sudo apt install php libapache2-mod-php php-mysql```
+
+- Let's check php is working: 
+
+Create a **test.php** by running this command ```touch /var/www/html/test.php``` and copy and paste the following  ```<?php phpinfo();``` into the **test.php** file.
+
+- Install mysql: ```sudo apt install mysql-server -y```
+- Run ```sudo mysql_secure_installation```
+
+```Click Y -> 1```, enter the password, then enter ```Y```
+
+- For the four following prompts, hit the ```Enter``` key for default.
+
+- Log into mysql with to test the database: ```sudo mysql```
+
+ ![](images/tier3-30.PNG)
+ 
+- Run ```show databases;```
+
+![](images/tier3-31.PNG)
+
+-Exit from mysql database.
+
+![](images/tier3-32.PNG)
+
+- Install these packages (mbstring, json): ```sudo apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl```
+
+You will be prompted to this below, select **apache2** then click ```Enter``` for **Ok**.
+
+![](images/tier3-33.PNG)
+
+Select **yes** for the next prompt.
+
+![](images/tier3-34.PNG)
+
+Enter the mysql application password for phpMyAdmin.
+
+![](images/tier3-35.PNG)
+
+![](images/tier3-36.PNG)
+
+Select **ok** to continue.
+
+![](images/tier3-37.PNG)
+
+- Abort the installation:
+
+![](images/tier3-38.PNG)
+
+- Log into the mysql database again: ```sudo mysql```
+- Run this command to see that the root is empty: ```SELECT user,authentication_string,plugin,host FROM mysql.user;```
+
+![](images/tier3-39.PNG)
+
+- Run ```UNINSTALL COMPONENT "file://component_validate_password";```
+
+![](images/tier3-40.PNG)
+
+- Run ```INSTALL COMPONENT "file://component_validate_password";```
+
+![](images/tier3-41.PNG)
+
+- Exit from the mysql database and run ```sudo phpenmod mbstring``` in the **phpMyAdmin** shell.
+- Log into mysql again: ```sudo mysql```
+
+- Run ```ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'password';``` in the mysql shell.
+- Then run again ```SELECT user,authentication_string,plugin,host FROM mysql.user;```
+
+![](images/tier3-42.PNG)
+
+Now we can see that the root has a value.
+
+- Exit from the mysql shell: ```exit```
+
+- Run ```cd /etc/php/7.4/apache2``` in the **phpMyAdmin** shell and edit the ```php.ini``` file by uncommenting line 895.
+
+For this, run ```sudo nano php.ini``` after you run the command ```cd /etc/php/7.4/apache2```. Then click ```Alt + G```, this will prompt you to write the line number you want to edit. Type ```895```, and remove the semi-colon as it appears in the picture below.
+
+![](images/tier3-43.PNG)
+
 - ```cd /etc/apache2``` and edit the file **apache2.conf**. Add: ```include /etc/phpmyadmin/apache.conf``` at the end of the file.
 
 ![](images/tier3-44.PNG)
@@ -193,8 +266,56 @@ $cfg['Servers'][$i]['password'] = '__FILL_IN_DETAILS__';
 
 ![](images/tier3-45.PNG)
 
+2. Set up the Nginx reverse proxy
 
-## Sources:
+- Exit the **phpMyAdmin** EC2 by running: ```exit```
+
+- **ssh** into the **Nginx** EC2 (reverse-proxy from the **Bastion** host
+- Update and upgrade: ```sudo apt-get update && sudo apt-get upgrade -y```
+- Install Nginx: ```sudo apt-get install nginx -y```
+- Change into the **Sites available** by running ```cd /etc/nginx/sites-available/```. The **conf** files direct the proxy to the resources needed.
+- Unlink the default **sites-enabled** file: ```sudo unlink /etc/nginx/sites-enabled/default```
+- Unlink the **reverse-proxy.conf**: ```sudo unlink /etc/nginx/sites-enabled/reverse-proxy.conf```
+- Create a configuration file for the Nginx: ```sudo nano reverse-proxy.conf```
+- Copy and paste the script below in the reverse-proxy configuration file
+```
+server {
+listen 80;
+location / {
+proxy_pass http://paste_phpMyAdmin_private_IP_here;
+}
+}
+```
+
+To save the file and exit, click ```Ctrl + X```, the click ```y``` for yes and hit ```Enter```.
+
+- We can check the content od the directory **sites-enabled** by running: ```ls /etc/nginx/sites-enabled/```
+- Let's link the **reverse-proxy** to **sites-enabled** in order for apache to access the Nginx: ```sudo ln -s /etc/nginx/sites-available/reverse-proxy.conf```.
+- Restart Nginx: ```sudo systemctl restart nginx```.
+
+### Task 5: We will now access database using the reverse-proxy and the phpMyAdmin.
+
+1. Go to ```AWS -> Load Balancers``` and copy the **DNS name**.
+
+![](images/tier3-46.PNG)
+
+2. Paste it on the url domain in a new browser.
+
+![](images/tier3-47.PNG)
+
+3. To access the database, type **http://DNS_name_url/phpmyadmin/index.php**. And put in the credentials to log in.
+
+![](images/tier3-48.PNG)
+
+![](images/tier3-49.PNG)
+
+### Task 6: DELETE ALL TO AVOID A BILLING CHARGES FROM AWS.
+
+For this, delete the stack and the database.
+
+![](images/tier3-50.PNG)
+
+## Sources visited:
 
 1. https://jennapederson.com/blog/2021/6/21/provisioning-an-ec2-instance-with-cloudformation-part-1/
 2. https://rdspg-monitoring.workshop.aws/en/prep/env/own-account.html

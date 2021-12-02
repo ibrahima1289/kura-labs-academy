@@ -1,5 +1,7 @@
 ## CI/CD Pipeline Deployment
 
+The source codes and other resources for for the application deployed can be found in this **[link here](https://github.com/ibrahima1289/DEPLOY_08_CICD)**.
+
 ### Goal:
 
 ### Architecture:

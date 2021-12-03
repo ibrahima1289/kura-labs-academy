@@ -32,3 +32,10 @@ In this project, we used AWS services and other software listed below.
 #### Task 5: 
 
 ### Sources visited:
+
+1. https://awsbloglink.wordpress.com/2020/05/14/ansiblejenkins2020en/
+2. https://medium.com/nerd-for-tech/installing-jenkins-using-an-ansible-playbook-2d99303a235f
+3. https://linuxize.com/post/how-to-install-jenkins-on-ubuntu-20-04/
+4. https://www.middlewareinventory.com/blog/ansible-aws-ec2/
+5. https://geektechstuff.com/2020/07/07/using-ansible-with-aws-creating-multiple-ec2-instances-tagging-them-and-elk-aws-ansible/
+

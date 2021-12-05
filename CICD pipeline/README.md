@@ -19,6 +19,12 @@ In this project, we used AWS services and other software listed below.
 
 #### Task 1: 
 
+Create 3 EC2’s, one EC2 will be a Jenkins master and second EC2 is
+a Jenkins agent and the third you will use for production.
+- The EC2’s are not required to be in a private subnet for this
+deployment.
+- On the third EC2, install docker (this will be for your
+application).
 
 #### Task 2:
 

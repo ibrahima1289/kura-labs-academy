@@ -8,6 +8,8 @@ The goal for this assignment is to create three EC2 instances with [Ansible](htt
 
 ### Architecture:
 
+![](images/d8-0.PNG)
+
 ### Software Tools:
 
 In this project, we used AWS services and other software listed below.

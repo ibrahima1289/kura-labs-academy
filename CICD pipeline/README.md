@@ -2,15 +2,15 @@
 
 The source codes and other resources for for the application deployed can be found in this **[link here](https://github.com/ibrahima1289/DEPLOY_08_CICD)**.
 
-### Goal: 
+## Goal: 
 
 The goal for this assignment is to create three EC2 instances with [Ansible](https://www.ansible.com/), and set up a CI/CD pipeline that will build build a docker image of the app, test the application using [Cypress](https://www.cypress.io/how-it-works); and deploy with Jenkins. Finaly, the image will be uploaded to Dockerhub using the Jenkins pipeline.
 
-### Architecture:
+## Architecture:
 
 ![](images/d8-0.PNG)
 
-### Software Tools:
+## Software Tools:
 
 In this project, we used AWS services and other software listed below.
 
@@ -20,9 +20,9 @@ In this project, we used AWS services and other software listed below.
 4. Ansible
 5. Cypress
 
-### Precedure:
+## Precedure:
 
-#### Task 1: 
+### Task 1: 
 
 1. Create three EC2 instance using Ansible:
   * One EC2 will be a Jenkins master
@@ -83,18 +83,18 @@ You should see at the end:
   * On the second EC2 which is the agent, install the dependencies using the file [agent_dependences.sh](https://github.com/ibrahima1289/DEPLOY_08_CICD/blob/main/ansible_playbooks/agent_dependences.sh)
   * On the third EC2, install docker (this will be for the application). You can use this [install_docker.sh](https://github.com/ibrahima1289/DEPLOY_08_CICD/blob/main/ansible_playbooks/install_docker.sh).
 
-#### Task 2:
+### Task 2:
 
 
-#### Task 3:
+### Task 3:
 
 
-#### Task 4:
+### Task 4:
 
 
-#### Task 5: 
+### Task 5: 
 
-### Sources visited:
+#### Sources visited:
 
 1. https://awsbloglink.wordpress.com/2020/05/14/ansiblejenkins2020en/
 2. https://medium.com/nerd-for-tech/installing-jenkins-using-an-ansible-playbook-2d99303a235f

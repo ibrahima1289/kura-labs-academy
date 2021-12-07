@@ -21,7 +21,7 @@ In this project, we used AWS services and other software listed below.
 5. Cypress
 6. AWS: EC2, Subnet, VPC, Security Group
 
-## Precedure:
+## Procedure:
 
 ### Task 1: 
 

@@ -21,4 +21,5 @@
 
 
 #### Sources:
-##### See the [syllabus](https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf) for more details.
+1. See the [syllabus](https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf) for more details.
+2. 

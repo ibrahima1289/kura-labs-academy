@@ -20,4 +20,5 @@
 ### Domain 5: Monitoring and Troubleshooting 12%
 
 
-#### See the [syllabus](https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf) for more details.
+#### Sources:
+##### See the [syllabus](https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf) for more details.

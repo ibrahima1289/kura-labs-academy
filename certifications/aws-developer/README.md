@@ -13,7 +13,11 @@
 
 ### Domain 2: Security 26%
 
+2.1 Make authenticated calls to AWS services.
 
+2.2 Implement encryption using AWS services.
+
+2.3 Implement application authentication and authorization.
 
 ### Domain 3: Development with AWS Services 30%
 

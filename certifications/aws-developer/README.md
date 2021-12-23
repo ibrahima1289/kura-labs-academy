@@ -21,7 +21,13 @@
 
 ### Domain 3: Development with AWS Services 30%
 
+3.1 Write code for serverless applications
 
+3.2 Translate functional requirements into application design
+
+3.3 Implement application design into application code
+
+3.4 Write code that interacts with AWS services by using APIs, SDKs, and AWS CLI
 
 ### Domain 4: Refactoring 10%
 

@@ -3,7 +3,13 @@
 
 ### Domain 1: Deployment 22%
 
+1.1 Deploy written code in AWS using existing CI/CD pipelines, processes, and patterns.
 
+1.2 Deploy applications using AWS Elastic Beanstalk.
+
+1.3 Prepare the application deployment package to be deployed to AWS
+
+1.4 Deploy serverless applications.
 
 ### Domain 2: Security 26%
 

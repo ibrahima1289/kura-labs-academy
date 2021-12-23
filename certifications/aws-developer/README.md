@@ -31,11 +31,16 @@
 
 ### Domain 4: Refactoring 10%
 
+4.1 Optimize applications to best use AWS services and features.
 
+4.2 Migrate existing application code to run on AWS.
 
 ### Domain 5: Monitoring and Troubleshooting 12%
 
+5.1 Write code that can be monitored.
 
-#### Sources:
+5.2 Perform root cause analysis on faults found in testing or production.
+
+## Sources:
 1. See the [syllabus](https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf) for more details.
 2. 

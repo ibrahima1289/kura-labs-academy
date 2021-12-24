@@ -3,13 +3,16 @@
 ## Introduction
 Set up your lab:
 * Install [VirtualBox](https://www.virtualbox.org/manual/ch02.html) on local machine.
-* Install [CentOS 8](https://linuxhint.com/install_centos8_virtualbox/) on VirtualBox.
+* Install [CentOS 8](https://linuxhint.com/install_centos8_virtualbox/) or [7]() on VirtualBox.
 * Install [Ubuntu](https://brb.nci.nih.gov/seqtools/installUbuntu.html) on VirtualBox.
 
 ### 1.0 Hardware and System Configuration 21%
 
-
-
+1. System Hardware: Linux Boot Process
+  * Firmware: Excecute code in the BIOS/UEFI; firmware execute bootloader (grub2) code on drive.
+  * Bootloader: Bootloader reads its configuration file; executes the kernel.
+  * Kernel: Kernel loads the RAMDisk into RAM.
+  * Initialization: systemd is started.
 
 ### 2.0 System Operation and Maintenance 26%
 

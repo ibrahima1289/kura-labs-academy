@@ -8,15 +8,20 @@ Set up your lab:
 
 ### 1.0 Hardware and System Configuration 21%
 
-1. System Hardware: Linux Boot Process
+1.1 System Hardware: Linux Boot Process
    
    * Firmware: Excecute code in the BIOS/UEFI; firmware execute bootloader (grub2) code on drive.
    * Bootloader: Bootloader reads its configuration file; executes the kernel.
    * Kernel: Kernel loads the RAMDisk into RAM.
    * Initialization: systemd is started.
+   
+1.2 Disk Systems:
 
 ### 2.0 System Operation and Maintenance 26%
 
+2.1 Manage Users and Software:
+
+2.2 Files: Create, Modify and Redirect
 
 
 ### 3.0 Security 19%

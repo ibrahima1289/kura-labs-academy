@@ -26,16 +26,25 @@ Set up your lab:
 
 ### 3.0 Security 19%
 
+3.1 File Security
+
+3.2 System Security
 
 
 ### 4.0 Linux Troubleshooting and Diiagnostic 20%
 
+4.1 System Logging
 
+4.2 System Monitoring
+
+4.3
 
 
 ### 5.0 Automation and Scripting 14%
 
+5.1 Version Control
 
+5.2 Automation and Scripting
 
 # Sources:
 

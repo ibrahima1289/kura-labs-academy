@@ -42,5 +42,5 @@
 5.2 Perform root cause analysis on faults found in testing or production.
 
 ## Sources:
-1. See the [syllabus](https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf) for more details.
+1. See the [syllabus](https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf) link for more details.
 2. 

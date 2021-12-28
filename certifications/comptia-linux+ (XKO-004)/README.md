@@ -1,7 +1,7 @@
 # COMPTIA LINUX+ (XKO-004)
 
 ## Introduction
-Set up your lab:
+Set up your lab environment:
 * Install [VirtualBox](https://www.virtualbox.org/manual/ch02.html) on local machine.
 * Install [CentOS 8](https://linuxhint.com/install_centos8_virtualbox/) or [7]() on VirtualBox.
 * Install [Ubuntu](https://brb.nci.nih.gov/seqtools/installUbuntu.html) on VirtualBox.

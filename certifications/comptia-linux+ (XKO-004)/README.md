@@ -17,6 +17,8 @@ Set up your lab environment:
    
 1.2 Disk Systems:
 
+    * See the article by [Nevana Pavlicic](https://phoenixnap.com/kb/linux-create-partition).
+
 ### 2.0 System Operation and Maintenance 26%
 
 2.1 Manage Users and Software:

@@ -75,7 +75,7 @@ Once the stack is created, proceed to the next task.
    
    ![](images/tier3-8.PNG)
    
-   * Copy the command above and paste it into the command line interface.
+   * Copy the command above and paste it into the command line interface as shown below.
 
    ![](images/tier3-9.PNG)
     

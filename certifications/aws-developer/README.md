@@ -1,6 +1,5 @@
 # AWS Certified Developer
 
-
 ### Domain 1: Deployment 22%
 
 1.1 Deploy written code in AWS using existing CI/CD pipelines, processes, and patterns.

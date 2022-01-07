@@ -42,4 +42,4 @@
 
 ## Sources:
 1. See the [syllabus](https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf) link for more details.
-2. 
+2. Also, see this [link](https://aws.amazon.com/certification/certified-developer-associate/) for more resources.

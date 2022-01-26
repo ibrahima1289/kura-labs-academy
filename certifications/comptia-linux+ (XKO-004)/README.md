@@ -34,9 +34,9 @@ Set up your lab environment:
      ```
      systemctl list-units -t service --state running
      ```
-   * To check the status of any system:
+   * To check the status of any service:
      ```
-     systemctl status
+     systemctl status service_name
      ```
      
  *Click on **q** to quit.*

@@ -25,6 +25,9 @@ Set up your lab environment:
 
 2.2 Files: Create, Modify and Redirect
 
+2.3 Server Infrastructure and Services
+
+   * [Systemd](https://wiki.archlinux.org/title/Systemd-networkd)
 
 ### 3.0 Security 19%
 
@@ -33,7 +36,7 @@ Set up your lab environment:
 3.2 System Security
 
 
-### 4.0 Linux Troubleshooting and Diiagnostic 20%
+### 4.0 Linux Troubleshooting and Diagnostic 20%
 
 4.1 System Logging
 

@@ -30,7 +30,7 @@ Set up your lab environment:
    * [Systemd](https://wiki.archlinux.org/title/Systemd-networkd)
    * To see the calendar, use `cal`.
    * To see the calendar for any year type `cal the_year_you_want`.
-   * Tosee all services:
+   * To see all services:
      ```
      systemctl list-unit-files -at service
      ```
@@ -42,7 +42,6 @@ Set up your lab environment:
      ```
      systemctl status service_name
      ```
-     
  *Click on **q** to quit.*
 
 ### 3.0 Security 19%

@@ -39,7 +39,7 @@ Set up your lab environment:
      systemctl status
      ```
      
-    *Click on **q** to quit.*
+ *Click on **q** to quit.*
 
 ### 3.0 Security 19%
 

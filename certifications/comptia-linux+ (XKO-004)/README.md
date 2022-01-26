@@ -28,8 +28,8 @@ Set up your lab environment:
 2.3 Server Infrastructure and Services
 
    * [Systemd](https://wiki.archlinux.org/title/Systemd-networkd)
-   * To see the calendar, use 'cal'.
-   * To see the calendar for any year type 'cal the_year_you_want'.
+   * To see the calendar, use `cal`.
+   * To see the calendar for any year type `cal the_year_you_want`.
 
 ### 3.0 Security 19%
 

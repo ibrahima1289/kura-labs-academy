@@ -30,6 +30,16 @@ Set up your lab environment:
    * [Systemd](https://wiki.archlinux.org/title/Systemd-networkd)
    * To see the calendar, use `cal`.
    * To see the calendar for any year type `cal the_year_you_want`.
+   * To see the systems that are running;
+     ```
+     systemctl list-units -t service --state running
+     ```
+   * To check the status of any system:
+     ```
+     systemctl status
+     ```
+     
+    *Click on **q** to quit.*
 
 ### 3.0 Security 19%
 

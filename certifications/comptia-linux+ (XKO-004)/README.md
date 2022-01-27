@@ -50,6 +50,7 @@ Set up your lab environment:
 
 3.2 System Security
 
+3.3 Generate **ssh key pair**, use this [link](https://www.ssh.com/academy/ssh/keygen).
 
 ### 4.0 Linux Troubleshooting and Diagnostic 20%
 

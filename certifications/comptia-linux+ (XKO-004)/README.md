@@ -25,6 +25,11 @@ Set up your lab environment:
 
 2.2 Files: Create, Modify and Redirect
 
+   * Install **tree** gives us a graphical visualization of files structure in a given folder.
+     ```
+     sudo apt  install tree
+     ```
+
 2.3 Server Infrastructure and Services
 
    * To see the cron job folders, use this command: 

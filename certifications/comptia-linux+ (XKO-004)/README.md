@@ -29,6 +29,16 @@ Set up your lab environment:
      ```
      sudo apt  install tree
      ```
+   * Use **locate** command to find files
+     ```
+     sudo apt install mlocate
+     locate file_name
+     ```
+   * This command below will show files and folders that have `usr` and `passwd` only:
+     ```
+     locate --regex '^/usr.*passwd$'
+     ```
+   * You can use archieve/compress files in linux: see this [link](https://linuxize.com/post/how-to-zip-files-and-directories-in-linux/).
 
 2.3 Server Infrastructure and Services
 

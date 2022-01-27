@@ -27,6 +27,10 @@ Set up your lab environment:
 
 2.3 Server Infrastructure and Services
 
+   * To see the cron job folders, use this command: 
+     ```
+     ls -d /etc/cron.*
+     ```
    * [Systemd](https://wiki.archlinux.org/title/Systemd-networkd)
    * To see the calendar, use `cal`.
    * To see the calendar for any year type `cal the_year_you_want`.

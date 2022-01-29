@@ -53,7 +53,7 @@ Set up your lab environment:
      ```
      systemctl list-unit-files -at service
      ```
-   * To see the systems that are running;
+   * To see the systems that are running:
      ```
      systemctl list-units -t service --state running
      ```

@@ -29,7 +29,7 @@ Set up your lab environment:
      ```
      sudo apt  install tree
      ```
-   * Use **locate** command to find files
+   * Use **locate** command to find files.
      ```
      sudo apt install mlocate
      locate file_name

@@ -1,5 +1,7 @@
 # AWS Certified Developer - Documentation
 
+AWS CLI [cheetsheet](https://www.bluematador.com/learn/aws-cli-cheatsheet). 
+
 ### Domain 1: Deployment 22%
 
 1.1 Deploy written code in AWS using existing CI/CD pipelines, processes, and patterns.
@@ -44,4 +46,4 @@
 1. See the [syllabus](https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf) link for more details.
 2. Also, see this [link](https://aws.amazon.com/certification/certified-developer-associate/) for more resources.
 3. Here are some [Tools](https://aws.amazon.com/tools/).
-4. AWS [cheetsheet](https://www.bluematador.com/learn/aws-cli-cheatsheet).
+4. AWS CLI [cheetsheet](https://www.bluematador.com/learn/aws-cli-cheatsheet).

@@ -1,7 +1,7 @@
 # AWS Certified Developer - Documentation
 
 * AWS CLI [cheetsheet](https://www.bluematador.com/learn/aws-cli-cheatsheet). 
-* Tgenerate a **policy**, you can use [AWS Policy Grnerator](https://awspolicygen.s3.amazonaws.com/policygen.html).
+* To generate a **policy**, you can use [AWS Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html).
 
 ### Domain 1: Deployment 22%
 

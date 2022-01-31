@@ -1,6 +1,6 @@
 # AWS Certified Developer - Documentation
 
-* AWS CLI [cheetsheet](https://www.bluematador.com/learn/aws-cli-cheatsheet). 
+* AWS CLI [CheetSheet](https://www.bluematador.com/learn/aws-cli-cheatsheet). 
 * To generate a **policy**, you can use [AWS Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html).
 * The [IAM Policy Simulator](https://policysim.aws.amazon.com/home/index.jsp) is used to simulate policies.
 

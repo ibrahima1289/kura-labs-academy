@@ -49,4 +49,4 @@
 2. Also, see this [link](https://aws.amazon.com/certification/certified-developer-associate/) for more resources.
 3. Here are some [Tools](https://aws.amazon.com/tools/).
 4. AWS CLI [cheetsheet](https://www.bluematador.com/learn/aws-cli-cheatsheet).
-5. Use [sqlelectron](https://sqlectron.github.io/) to test RDS databases.
+5. Use [sqlectron](https://sqlectron.github.io/) to test RDS databases.

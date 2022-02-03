@@ -79,7 +79,7 @@ Once the stack is created, proceed to the next task.
 
    ![](images/tier3-9.PNG)
     
-   * Now, run the commands ```sudo apt-get update -y``` and ```sudo apt-get upgrade -y```. This will update and upgrade the dependencies needed. And the ```-y``` will take ```yes``` as a default.
+   * Now, run the commands ```sudo apt-get update -y && sudo apt-get upgrade -y```. This will update and upgrade the dependencies needed. And the ```-y``` will take ```yes``` as a default.
    
    ![](images/tier3-11.PNG)
    

@@ -1,4 +1,4 @@
-# COMPTIA LINUX+ (XKO-004)
+# COMPTIA LINUX+ (XKO-004) CERTIFICATION
 
 ## Introduction
 Set up your lab environment:

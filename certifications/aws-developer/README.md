@@ -5,7 +5,7 @@
 * The [IAM Policy Simulator](https://policysim.aws.amazon.com/home/index.jsp) is used to simulate policies.
 * AWS [CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/resource-import-supported-resources.html) resources for **JSON/YAML** files.
 *  AWS [put-metrics-data](https://docs.aws.amazon.com/cli/latest/reference/cloudwatch/put-metric-data.html) to Publish metric data points to Amazon CloudWatch.
-*  Use [epoch time converter](https://www.epochconverter.com/) to convert time for **TTL**. 
+*  Use [epoch time converter](https://www.epochconverter.com/) to convert time for **TTL**(Time To Live). 
   
 
 ### Domain 1: Deployment 22%

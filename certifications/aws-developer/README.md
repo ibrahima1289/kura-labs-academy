@@ -4,8 +4,8 @@
 * To generate a **policy**, you can use [AWS Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html).
 * The [IAM Policy Simulator](https://policysim.aws.amazon.com/home/index.jsp) is used to simulate policies.
 * AWS [CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/resource-import-supported-resources.html) resources for **JSON/YAML** files.
-*  AWS [put-metrics-data](https://docs.aws.amazon.com/cli/latest/reference/cloudwatch/put-metric-data.html) to Publish metric data points to Amazon CloudWatch.
-*  Use [epoch time converter](https://www.epochconverter.com/) to convert time for **TTL**(Time To Live). 
+* AWS [put-metrics-data](https://docs.aws.amazon.com/cli/latest/reference/cloudwatch/put-metric-data.html) to Publish metric data points to Amazon CloudWatch.
+* Use [epoch time converter](https://www.epochconverter.com/) to convert time for **TTL**(Time To Live). 
   
 
 ### Domain 1: Deployment 22%
@@ -48,7 +48,7 @@
 
 5.2 Perform root cause analysis on faults found in testing or production.
 
-## Sources:
+## Other sources:
 1. See the AWS [syllabus](https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf) link for more details.
 2. Also, see this [link](https://aws.amazon.com/certification/certified-developer-associate/) for more resources.
 3. Here are some [Tools](https://aws.amazon.com/tools/).
